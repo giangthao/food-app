@@ -10,12 +10,13 @@ class CategoryItem extends StatelessWidget{
     Color _color = this.category.color;
    return Container(
      child: Container(
+       padding: EdgeInsets.all(8),
        child: Column(
          crossAxisAlignment: CrossAxisAlignment.center,
          mainAxisAlignment: MainAxisAlignment.center,
          children: <Widget>[
            Text(this.category.content,
-             style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),)
+             style: Theme.of(context).textTheme.bodyLarge)
          ],
        ),
        decoration: BoxDecoration(

@@ -13,7 +13,7 @@ class CategoriesPage extends StatelessWidget {
           maxCrossAxisExtent: 300,
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
-          childAspectRatio: 4/2,
+          childAspectRatio: 3/2,
       ),
       children: FAKE_CATEGORIES.map((eahCategory) => CategoryItem(category: eahCategory)).toList(),
     );
