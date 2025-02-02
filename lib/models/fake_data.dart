@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'category.dart';
+import 'food.dart';
 
 const FAKE_CATEGORIES = const [
   Category(id: 1, content: 'Fruits', color: Colors.red),
@@ -22,4 +23,32 @@ const FAKE_CATEGORIES = const [
   Category(id: 18, content: 'Street Food', color: Colors.redAccent),
   Category(id: 19, content: 'Gourmet & Fine Dining', color: Colors.brown),
   Category(id: 20, content: 'Home-Cooked Meals', color: Colors.purpleAccent),
+];
+
+
+var FOODS =  [
+   Food(
+       name: 'sushi',
+       urlName: 'https://images.squarespace-cdn.com/content/v1/5cb9ef147eb88c5caefa30b3/1706782670356-6YFHG6Q6A616ANTMKTE7/Chilaquiles+-+Breakfast+from+7+Different+Countries+-+Her86m2+4.jpg?format=300w',
+       duration: Duration(minutes: 20),
+       ingredients: ['Nori', 'Rice', 'Sugar', 'Salt', 'Fish'],
+       categoryId: 1,
+       complexity: Complexity.Hard
+   ),
+  Food(
+      name: 'sushi',
+      urlName: 'https://images.squarespace-cdn.com/content/v1/5cb9ef147eb88c5caefa30b3/1706782670356-6YFHG6Q6A616ANTMKTE7/Chilaquiles+-+Breakfast+from+7+Different+Countries+-+Her86m2+4.jpg?format=300w',
+      duration: Duration(minutes: 20),
+      ingredients: ['Nori', 'Rice', 'Sugar', 'Salt', 'Fish'],
+      categoryId: 1,
+      complexity: Complexity.Hard
+  ),
+  Food(
+      name: 'sushi',
+      urlName: 'https://images.squarespace-cdn.com/content/v1/5cb9ef147eb88c5caefa30b3/1706782670356-6YFHG6Q6A616ANTMKTE7/Chilaquiles+-+Breakfast+from+7+Different+Countries+-+Her86m2+4.jpg?format=300w',
+      duration: Duration(minutes: 20),
+      ingredients: ['Nori', 'Rice', 'Sugar', 'Salt', 'Fish'],
+      categoryId: 1,
+      complexity: Complexity.Hard
+  )
 ];
